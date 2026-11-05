@@ -2,7 +2,7 @@ package Model;
 
 public class Endereco {
 
-    private long id;
+    private long ind;
     private String rua;
     private String numero;
     private String bairro;
@@ -14,7 +14,7 @@ public class Endereco {
     
 
     public long getInd() {
-        return id;
+        return ind;
     }
 
 
@@ -57,7 +57,7 @@ public class Endereco {
         this.id = id;
     }
 
-
+ 
     public void setRua(String rua) {
         this.rua = rua;
     }
