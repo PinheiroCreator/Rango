@@ -19,7 +19,8 @@ public class Estabelecimento {
                                   "Acaiteria", 
                                   "Churrascaria", 
                                   "Japonesa", 
-                                  "FOOD TRUCK"};
+                                  "FOOD TRUCK",
+                                  "Outro"};
     
     public long getId() {
         return id;
