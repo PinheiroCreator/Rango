@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package Visao;
+package com.mycompany.pirango;
 
 /**
  *
@@ -28,7 +28,6 @@ public class PagInicial extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jFrame1 = new javax.swing.JFrame();
         jPanel1 = new javax.swing.JPanel();
         bntCriarConta = new javax.swing.JButton();
         Rango = new javax.swing.JLabel();
@@ -55,17 +54,6 @@ public class PagInicial extends javax.swing.JFrame {
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout jFrame1Layout = new javax.swing.GroupLayout(jFrame1.getContentPane());
-        jFrame1.getContentPane().setLayout(jFrame1Layout);
-        jFrame1Layout.setHorizontalGroup(
-            jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        jFrame1Layout.setVerticalGroup(
-            jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
-
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Tela Inicial");
 
@@ -85,7 +73,6 @@ public class PagInicial extends javax.swing.JFrame {
         RanGo.setForeground(new java.awt.Color(255, 204, 0));
         RanGo.setText("RanGO");
 
-        PaginaInicial.setForeground(java.awt.SystemColor.control);
         PaginaInicial.setText("Página Inicial");
         PaginaInicial.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -93,13 +80,7 @@ public class PagInicial extends javax.swing.JFrame {
             }
         });
 
-        Restaurantes.setForeground(java.awt.SystemColor.controlHighlight);
         Restaurantes.setText("Restaurantes");
-        Restaurantes.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                RestaurantesMouseClicked(evt);
-            }
-        });
 
         bntEmpresa.setBackground(new java.awt.Color(0, 102, 204));
         bntEmpresa.setText("Empresa");
@@ -108,9 +89,6 @@ public class PagInicial extends javax.swing.JFrame {
         bntCliente.setBackground(new java.awt.Color(0, 153, 0));
         bntCliente.setText("Cliente");
 
-        SobreNos.setBackground(new java.awt.Color(255, 255, 255));
-        SobreNos.setFont(SobreNos.getFont());
-        SobreNos.setForeground(java.awt.SystemColor.controlHighlight);
         SobreNos.setText("Sobre Nós");
 
         javax.swing.GroupLayout panelRangoLayout = new javax.swing.GroupLayout(panelRango);
@@ -165,7 +143,6 @@ public class PagInicial extends javax.swing.JFrame {
         labelParaTodos.setText("Para Todos");
 
         bntSaibaMais.setBackground(new java.awt.Color(0, 51, 0));
-        bntSaibaMais.setForeground(java.awt.SystemColor.control);
         bntSaibaMais.setText("Saiba mais");
         bntSaibaMais.addActionListener(this::bntSaibaMaisActionPerformed);
 
@@ -217,30 +194,25 @@ public class PagInicial extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(47, 47, 47)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(bntSaibaMais, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Rango)
-                            .addComponent(labelOqFaremos)
-                            .addComponent(jLabel1)
-                            .addComponent(bntCriarConta)
-                            .addComponent(jLabel2)
-                            .addComponent(txtParaRestaurante)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel4)
-                            .addComponent(labelParaTodos)
-                            .addComponent(jLabel8)
-                            .addComponent(jLabel9)
-                            .addComponent(jLabel10))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(labelConsumidores)
-                            .addComponent(jLabel7)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                    .addComponent(bntSaibaMais, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Rango)
+                    .addComponent(labelOqFaremos)
+                    .addComponent(labelConsumidores)
+                    .addComponent(jLabel1)
+                    .addComponent(bntCriarConta)
+                    .addComponent(jLabel2)
+                    .addComponent(txtParaRestaurante)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel4)
+                    .addComponent(jLabel7)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(labelParaTodos)
+                    .addComponent(jLabel8)
+                    .addComponent(jLabel9)
+                    .addComponent(jLabel10))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -310,10 +282,6 @@ public class PagInicial extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_bntSaibaMaisActionPerformed
 
-    private void RestaurantesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_RestaurantesMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_RestaurantesMouseClicked
-
     /**
      * @param args the command line arguments
      */
@@ -349,7 +317,6 @@ public class PagInicial extends javax.swing.JFrame {
     private javax.swing.JButton bntCriarConta;
     private javax.swing.JButton bntEmpresa;
     private javax.swing.JButton bntSaibaMais;
-    private javax.swing.JFrame jFrame1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
