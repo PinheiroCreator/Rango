@@ -29,7 +29,6 @@ public class Estabelecimento {
         return nomeFantasia;
     }
 
-
     public String getRazaoSocial() {
         return razaoSocial;
     }
