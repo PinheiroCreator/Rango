@@ -2,7 +2,7 @@ package Model;
 
 public class Endereco {
 
-    private long ind;
+    private long id;
     private String rua;
     private String numero;
     private String bairro;
@@ -13,8 +13,8 @@ public class Endereco {
     
     
 
-    public long getInd() {
-        return ind;
+    public long getId() {
+        return id;
     }
 
 
@@ -53,7 +53,7 @@ public class Endereco {
     }
 
 
-    public void setInd(long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -89,6 +89,18 @@ public class Endereco {
 
 
     public void setComplemento(String complemento) {
+        this.complemento = complemento;
+    }
+
+    public void Endereco (long id, String rua, String numero, String bairro, String cidade, String estado, String cep, String complemento) {
+
+        this.id = id;
+        this.rua = rua;
+        this.numero = numero;
+        this.bairro = bairro;
+        this.cidade = cidade;
+        this.estado = estado;
+        this.cep = cep;
         this.complemento = complemento;
     }
     

@@ -3,7 +3,7 @@ package Model;
 
 public class Estabelecimento {
 
-       private long id;
+    private long id;
     private String nomeFantasia;
     private String razaoSocial;
     private String telefone;
@@ -77,11 +77,18 @@ public class Estabelecimento {
     public void setCategoria(String[] categoria) {
         this.categoria = categoria;
     }
-    
 
     
-    
-    
+    public void Estabelecimento (long id, String nomeFantasia,String razaoSocial, String telefone, String descricao, boolean aberto, String[] categoria) {
+
+        this.id = id;
+        this.nomeFantasia = nomeFantasia;
+        this.razaoSocial = razaoSocial;
+        this.telefone = telefone;
+        this.descricao = descricao;
+        this.aberto = aberto;
+        this.categoria = categoria;
+    }
     
     
     
