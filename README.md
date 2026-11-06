@@ -1,8 +1,6 @@
 # RanGO 
 
  -  Autores: Matheus Pinheiro, Beatriz Nascimento, Matheus henrique
- -   Data: 
- - 
 ------------------------------------------------------------------------
 ## 1º Entrega
 
@@ -33,5 +31,5 @@ Link do formulário para **Estabelecimentos:** [https://docs.google.com/forms/d/
 ### Amostra
 - Total de respostas: [N]
 - Clientes: [N] | Proprietários: [N]
-- Período da coleta: [28/09/26] a [data final]
+- Período da coleta: [28/09/26] a [07/12/26]
 - Divulgação: [WhatsApp, abordagem presencial]
