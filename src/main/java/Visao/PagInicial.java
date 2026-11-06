@@ -29,7 +29,7 @@ public class PagInicial extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        bntCriarConta = new javax.swing.JButton();
+        BTNRestaurantes = new javax.swing.JButton();
         Rango = new javax.swing.JLabel();
         panelRango = new javax.swing.JPanel();
         RanGo = new javax.swing.JLabel();
@@ -59,9 +59,9 @@ public class PagInicial extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        bntCriarConta.setBackground(new java.awt.Color(0, 51, 0));
-        bntCriarConta.setForeground(new java.awt.Color(255, 255, 255));
-        bntCriarConta.setText("Criar conta");
+        BTNRestaurantes.setBackground(new java.awt.Color(0, 51, 0));
+        BTNRestaurantes.setForeground(new java.awt.Color(255, 255, 255));
+        BTNRestaurantes.setText("Restaurantes");
 
         Rango.setFont(new java.awt.Font("Caladea", 1, 30)); // NOI18N
         Rango.setForeground(new java.awt.Color(0, 0, 0));
@@ -199,7 +199,7 @@ public class PagInicial extends javax.swing.JFrame {
                     .addComponent(labelOqFaremos)
                     .addComponent(labelConsumidores)
                     .addComponent(jLabel1)
-                    .addComponent(bntCriarConta)
+                    .addComponent(BTNRestaurantes)
                     .addComponent(jLabel2)
                     .addComponent(txtParaRestaurante)
                     .addComponent(jLabel3)
@@ -225,7 +225,7 @@ public class PagInicial extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel2)
                 .addGap(61, 61, 61)
-                .addComponent(bntCriarConta, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BTNRestaurantes, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(41, 41, 41)
                 .addComponent(labelOqFaremos)
                 .addGap(18, 18, 18)
@@ -250,9 +250,9 @@ public class PagInicial extends javax.swing.JFrame {
                 .addComponent(jLabel9)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel10)
-                .addGap(59, 59, 59)
+                .addGap(27, 27, 27)
                 .addComponent(bntSaibaMais, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(59, Short.MAX_VALUE))
+                .addContainerGap(91, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -308,13 +308,13 @@ public class PagInicial extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton BTNRestaurantes;
     private javax.swing.JLabel PaginaInicial;
     private javax.swing.JLabel RanGo;
     private javax.swing.JLabel Rango;
     private javax.swing.JLabel Restaurantes;
     private javax.swing.JLabel SobreNos;
     private javax.swing.JButton bntCliente;
-    private javax.swing.JButton bntCriarConta;
     private javax.swing.JButton bntEmpresa;
     private javax.swing.JButton bntSaibaMais;
     private javax.swing.JLabel jLabel1;
