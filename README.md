@@ -20,7 +20,7 @@ O cliente pessoa física poderá consultar estabelecimentos por nome, região, c
 
 ## 2º Entrega 
 
-### 1.1 Pesquisa com o Usuario
+### 2.1 Pesquisa com o Usuario
 
 Pesquisa quantitativa e qualitativa por questionário online (Google Forms), com perguntas fechadas (múltipla escolha e escala) e perguntas abertas. 
 
@@ -28,7 +28,7 @@ Link do formulário para **Clientes:** [https://docs.google.com/forms/d/e/1FAIpQ
 
 Link do formulário para **Estabelecimentos:** [https://docs.google.com/forms/d/e/1FAIpQLScqgMTpOecXXGUIdw5kPvdFSoDOinrPNtR9KnQ_0BoeIzBj1g/viewform]
 
-### Amostra
+### 2.2 Amostra
 - Total de respostas: [N]
 - Clientes: [N] | Proprietários: [N]
 - Período da coleta: [28/09/26] a [07/12/26]
