@@ -22,11 +22,9 @@ public class Endereco {
         return rua;
     }
 
-
     public String getNumero() {
         return numero;
     }
-
 
     public String getBairro() {
         return bairro;
