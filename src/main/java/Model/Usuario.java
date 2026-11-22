@@ -58,7 +58,8 @@ public class Usuario {
             return  "Usuario{" + "id_Usuario=" + id + ", nome="
                     + nome + ", telefone = " + telefone + ", email=" + email + "}";
     }
-
+    public Usuario() {
+    }
     public Usuario (int id,String cpf, String nome, String email, String telefone) {
 
         this.id = id;
