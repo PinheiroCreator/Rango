@@ -12,7 +12,7 @@ public class UsuarioDAO implements IUsuarioCRUD {
     public UsuarioDAO() throws Exception {
 
         try {
-            conexao = ConexaoBD.getConexao();
+            conexao = conexaoBD.getConexao();
         } catch (java.lang.Exception erro) {
             throw erro;
         }
