@@ -2,13 +2,15 @@
 package Model;
 
 
+import Persistencia.IUsuarioCRUD;
+
 public class Usuario {
     
     private long id; 
     private String cpf, nome, email;
-    private int telefone;
-    
-    
+    private String telefone;
+
+
     public long getId() { 
         return id;
     }
@@ -41,21 +43,29 @@ public class Usuario {
         this.email = email;
     }
 
-    public int getTelefone() {
+    public String getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(int telefone) {
+    public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
     
-    
-    public void Usuario (String cpf, String nome, String email, int telefone) {
-        
+    @Override
+
+        public String toString() {
+
+            return  "Usuario{" + "id_Usuario=" + id + ", nome="
+                    + nome + ", telefone = " + telefone + ", email=" + email + "}";
+    }
+
+    public Usuario (int id,String cpf, String nome, String email, String telefone) {
+
+        this.id = id;
         this.cpf = cpf;
         this.nome = nome;
         this.email = email;
         this.telefone = telefone;
-        
+
     }
 }
